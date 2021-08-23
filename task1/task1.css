@@ -1,0 +1,148 @@
+*{
+	margin: 0%;
+	padding: 0%;
+}
+ul{
+	list-style: none;
+}
+body{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: max-content;
+	background-color: maroon;
+}
+.sidebar{
+	position: relative;
+	width: 25%;
+	height: 800px;
+	background-color: #0082CA;
+	float: left;
+}
+.logo{
+	height: 20%;
+	width: 100%;
+	background-color: #0082CA;
+
+}
+.menu{
+	position: relative;
+	height: 50%;
+	width: 100%;
+	background-color: #0082CA;
+	color: white;
+}
+.menu ul{
+	width: 100%;
+	margin: auto;
+}
+.menu li{
+	width: 100%;
+	margin: auto;
+	padding: 10px;
+	padding-left: 30%;
+}
+.menu li:nth-child(1){
+	background-color: #025684;
+}
+.menu li:nth-child(2){
+	background-color: #015F92;
+}
+.menu li:nth-child(3){
+	background-color: #02679F;
+}
+.menu li:nth-child(4){
+	background-color: #016EA9;
+}
+.menu li:nth-child(5){
+	background-color: #007ABD;
+}
+.menu li:nth-child(6){
+	background-color: #0282C9;
+}
+.menu li:nth-child(7){
+	background-color: #1A2D3B;
+}
+.social{
+	height: 20%;
+	width: 100%;
+	background-color: indigo;
+}
+.home{
+	position: relative;
+	width: 75%;
+	height: 800px;
+	background-color: chartreuse;
+	float: right;
+}
+.contact{
+	position: relative;
+	width: 50%;
+	height: 800px;
+	float: left;
+	background-color: #3B5260;
+}
+.contact>h3,.contact>p,.contact>h4{
+	text-align: justify;
+	padding: 8%;
+	color: linen;
+}
+.contactinp{
+	position: relative;
+	width: 80%;
+	margin: auto;
+	/* background-color: yellow; */
+
+}
+hr{
+	width: 90%;
+	margin: auto;
+	
+}
+#inpcon{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	margin-top: 5%;
+	border-radius: 4px;
+	border-style: none;
+	color: white;
+	background-color: #7798AB;
+}
+#inpcon::placeholder{
+	padding-left: 10%;
+	color:white ;
+}
+#inpcon{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	margin-top: 5%;
+	border-radius: 4px;
+	border-style: none;
+	color: white;
+	background-color: #7798AB;
+}
+#inpcon2::placeholder{
+	padding-left: 10%;
+	color:white ;
+}
+
+.cdetail{
+	position: relative;
+	width: 50%;
+	height: 800px;
+	float: right;
+	background-color:#3B5260;
+
+}
+.map{
+	position: relative;
+	height: 250px;
+	width: 80%;
+	margin: auto;
+	background-color: lightyellow;
+	border-radius: 12px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
