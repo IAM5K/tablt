@@ -10,24 +10,30 @@ body{
 	display: inline-block;
 	width: 100%;
 	height: max-content;
-	background-color: maroon;
 }
 .sidebar{
 	position: relative;
 	width: 25%;
-	height: 800px;
+	height: 1000px;
 	background-color: #0082CA;
 	float: left;
 }
 .logo{
-	height: 20%;
+	height: 35%;
 	width: 100%;
 	background-color: #0082CA;
-
+}
+.logo img{
+	position: relative;
+	width: 90%;
+	height: auto;
+	/* margin: auto; */
+	margin-right: 10%;
+	margin-top:30% ;
 }
 .menu{
 	position: relative;
-	height: 50%;
+	height: 35%;
 	width: 100%;
 	background-color: #0082CA;
 	color: white;
@@ -64,29 +70,66 @@ body{
 	background-color: #1A2D3B;
 }
 .social{
-	height: 20%;
+	position: relative;
+	height: 10%;
 	width: 100%;
-	background-color: indigo;
+	margin: auto;
+}
+.social ul{
+	position: relative;
+	list-style: none;
+	width: 50%;
+	height: 60px;
+	margin-left:30%;
+
+}
+.social li{
+	position: relative;
+	list-style: none;
+	display: inline-block;
+	margin: 2%;
+	text-align: justify;
+}
+.fa{
+	color: white;
+	font-size: 24px !important;
+}
+.copyright{
+	color: white;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+.copyright p{
+	color: white;
+	margin-left: 30%;
+	padding: 2%;
+	padding-left: 0%;
+	text-align: left;
 }
 .home{
 	position: relative;
 	width: 75%;
-	height: 800px;
-	background-color: chartreuse;
+	height: 1000px;
+	/* background-color: chartreuse; */
 	float: right;
 }
 .contact{
 	position: relative;
 	width: 50%;
-	height: 800px;
+	height: 1000px;
 	float: left;
 	background-color: #3B5260;
 }
-.contact>h3,.contact>p,.contact>h4{
+.contact>h1,.contact>p,.contact>h4{
 	text-align: justify;
-	padding: 8%;
-	color: linen;
+	padding: 4%;
+	color: white;
 }
+.contact>p{
+	padding-left: 10%;
+	color: grey;
+	}
 .contactinp{
 	position: relative;
 	width: 80%;
@@ -97,6 +140,7 @@ body{
 hr{
 	width: 90%;
 	margin: auto;
+	border-style: 1px dashed black ;
 	
 }
 #inpcon{
@@ -109,11 +153,14 @@ hr{
 	color: white;
 	background-color: #7798AB;
 }
+.msg{
+	height: 100px;
+}
 #inpcon::placeholder{
 	padding-left: 10%;
 	color:white ;
 }
-#inpcon{
+#inpcon2{
 	position: relative;
 	width: 100%;
 	height: 40px;
@@ -121,9 +168,25 @@ hr{
 	border-radius: 4px;
 	border-style: none;
 	color: white;
+	padding-left: 9%;
 	background-color: #7798AB;
 }
-#inpcon2::placeholder{
+#send{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	margin-top: 5%;
+	border-radius: 4px;
+	border-style: none;
+	color: white;
+	background-color: #1A2D3B;
+}
+#send::placeholder{
+	padding-left: 10%;
+	color:white ;
+}
+.options{
+	margin-left: 10%;
 	padding-left: 10%;
 	color:white ;
 }
@@ -131,10 +194,20 @@ hr{
 .cdetail{
 	position: relative;
 	width: 50%;
-	height: 800px;
+	height: 1000px;
 	float: right;
 	background-color:#3B5260;
 
+}
+.cdetail>h1,.cdetail>p,.cdetail>h4{
+	text-align: justify;
+	padding: 2%;
+	padding-left: 5%;
+	color: white;
+}
+.cdetail>p{
+	padding-left: 22%;
+	color: grey;
 }
 .map{
 	position: relative;
