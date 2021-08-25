@@ -12,3 +12,13 @@ function carousel() {
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 3000); // Change image every 2 seconds
 }
+
+function myFunction() {
+  var x = document.getElementById("menu");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+    x.style.animationDuration="40s";
+  }
+}

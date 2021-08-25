@@ -12,19 +12,51 @@ nav{
   margin: 0px;
   position: relative;
 }
-ul{
-  display: inline;
+.logo{
   position: relative;
+  height: 100%;
+  width: 30%;
+  content: "Logo";
+  /* background-color: cadetblue; */
+  float: left;
+  left: 0%;  
+}
+.logo p{
+  position: relative;
+  width: 40%;
+  top: 20%;
+  margin: auto;
+  color: white;
+  background-color: yellowgreen;
+  border-radius: 6px;
+  font-size: 2.2em;
+  vertical-align: middle;
+  font-weight: bold;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ham{
+  display: none;
+  position: relative;
+  /* background-color: whitesmoke; */
+}
+ul{
+  position: relative;
+  width: 70%;
+  display: inline;
   height: 70px;
   float: right;
+  right: 0%;
   margin: 0px;
   padding-top: 10px;
   padding-inline: 10px;
+  /* background-color: yellow; */
 }
 li{
   display: inline;
   position: relative;
   float: left;
+  left: 25%;
   margin: 3px;
   margin-top: 10px;
   padding: 10px;
@@ -32,6 +64,47 @@ li{
   border-style:outset;
   cursor: pointer;
   font-size: 1em;
+}
+@media screen and (max-width:640px) {
+  .ham{
+    display: block;
+    width: 15%;
+    height: 100%;
+    font-size: 24px;
+    text-align: center;
+  }
+  .ham i{
+    margin-top: 50%;
+  }
+  .logo{
+    width: 85%;
+    float: right;    
+  }
+  .logo p{
+    position: relative;
+    right:9%;
+  }
+  #menu{
+    display: none;
+  }
+  ul{
+    width: 100%;
+    /* background-color: tomato; */
+    height: fit-content;
+    margin: 0%;
+    padding: 0%;
+    padding-inline:0;
+    animation: ease-in;
+    animation-duration: 30s;
+  }
+  li{
+    width: 100%;
+    left: 0%;
+    margin: 0%;
+    animation: forwards;
+    animation-duration: 30s;
+  }
+  
 }
 a, a:hover, a:focus, a:active {
   text-decoration: none;
