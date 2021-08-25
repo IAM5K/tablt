@@ -48,3 +48,39 @@ nav li:hover{
 }
 /* Slider Starts */
 .slides {display:none;}
+
+.column {
+  position: relative;
+  float: left;
+  width: 33%;
+  padding: 10px;
+  height: 300px;
+  margin: 0.15%;
+  border-style: inset;
+  border:2px solid aquamarine;
+  box-shadow: aquamarine;
+}
+.column img{
+  position: relative;
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+.column p{
+  position: relative;
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
