@@ -1,43 +1,23 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Geometrizer</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="./task3.css">
-		<script src="./script.js"></script>
 	</head>
 <body>
 <div class="home">
 	
 	<form action="" validate >		
-		<h2>Bill To / Billing Address</h2>
-			<ul class="struct">
-				<li><label for="name">Full Name :</label>
-				<input type="text" name="" id="Name" minlength="6" maxlength="30" placeholder="Tablt Inc" required></li>
-				<li><label for="address">Street Address :</label>
-				<input type="text" name="" id="address" placeholder="ABC Street" minlength="10" maxlength="50">		</li>
-				<li><input type="text" name="" id="addressopt" placeholder="(optional)"></li>
-				<li><label for="pincode">Zip Code :</label>
-				<input type="integer" name="pincode" id="pincode" placeholder="112233" maxlength="6" minlength="6" required></li>
-				<li><label for="tel">Phone :</label>
-				<input type="tel" name="" id="phone" placeholder="Without +91" maxlength="10" minlength="10" required validate></li>
-				<li><label for="email">Email :</label>
-					<input type="email" name="" id="email" maxlength="30" required ></li>
-				<li class="sub"><input type="submit" value="Submit"></li>
-
+		<h2>Geometrizer: Your Geometry Assistant </h2>
+			<ul>
+				<li>
+					<label for="radius">Radius :</label>
+					<input type="number" id="radius" oninput="circle()" >
+				</li>
+				<li>Perimeter of Circle is : <b id="operi"></b> </li>
+				<li>Area of Circle is : <b id="oarea"></b> </li>
 			</ul>
-				
-			
-								
-				
-		
-				
-			
-				
-			
-					
-				
-				
-		
 	
 	</form>
 	<br>	<br>
@@ -45,5 +25,6 @@
 	
 </div>
 
+<script src="../task5/script.js"></script>
 </body>
 </html>
