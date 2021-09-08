@@ -1,4 +1,6 @@
 # Version Details 
+v 0.0.9 : 08 Sep Task 2 Geometrizer.
+v 0.0.8 : 07 Sep Task 4 Temperature Converter.
 v 0.0.7 : 25 Aug Task 2 Responsive page ready.
 v 0.0.6 : 25 Aug Task 2 Navigation and Slider.
 v 0.0.5 : 24 Aug Task 2 Basic Setup.
